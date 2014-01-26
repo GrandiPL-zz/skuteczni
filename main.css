@@ -1,55 +1,49 @@
+*{
+	box-sizing: border-box;
+}
 body
 {
-	background: url("../images/bg.jpg") repeat left top scroll;
-	display: block;
+	background: url(../images/bg.jpg) repeat left top scroll;
 	height: 633px;
-	margin-bottom: 8px;
-	margin-left: 8px;
-	margin-right: 8px;
-	margin-top: 8px;
-	width: 1904px;
+	margin: 0;
 }
 #bg-top
 {
-	display: block;
-	height: 0px;
-	width: 1904px;
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 250px;
+	width: 100%;
+}
+#container-top{
+	width: 1156px;
+	margin: auto;
 }
 #logo
 {
-	display: block;
 	float: left;
 	height: 230px;
 	padding-left: 0px;
+	margin-top: 20px;
 	width: 169px;
-}
-#contact-logo
-{
-	display: block;
-	float: left;
-	height: 58px;
-	padding-right: 0px;
-	width: 247px;
 }
 #to
 {
 	float: left;
 	height: 256px;
-	width: 586px;
-}
-#top-center-photo
-{
-	background-image: url("../images/top.png");
-	box-sizing: border-box;
-	display: block;
-	height: 350px;
-	margin-bottom: -47px;
-	margin-left: -47px;
-	margin-right: -47px;
-	margin-top: -47px;
-	padding-bottom: 47px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 47px;
 	width: 680px;
+	margin: 0 30px;
+}
+#top-center-bg{
+	background-image: url(../images/top.png);
+	width: 680px;
+	height: 350px;
+	padding: 47px 18px 0 18px;
+	margin-top: -47px;
+}
+#contact-logo
+{
+	float: left;
+	height: 58px;
+	padding-right: 0px;
+	margin-top: 156px;
+	width: 247px;
 }
