@@ -22,7 +22,7 @@ body
 	float: left;
 	height: 230px;
 	padding-left: 0px;
-	margin-top: 20px;
+	margin: 20px 21px;
 	width: 169px;
 }
 #to
@@ -37,13 +37,29 @@ body
 	width: 680px;
 	height: 350px;
 	padding: 47px 18px 0 18px;
-	margin-top: -47px;
+	margin: -50px 0px 0px -10px;
 }
 #contact-logo
 {
 	float: left;
 	height: 58px;
-	padding-right: 0px;
-	margin-top: 156px;
+	padding-left: 23px;
+	margin: 153px -30px;
 	width: 247px;
+}
+#menu{
+	float: left;
+	margin-left: 100px;
+	width: 336px;
+	
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu li{
+	color: #E41D13;
+	visibility: inherit;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
 }
