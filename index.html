@@ -1,6 +1,7 @@
 <html>
 
 	<head>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 	</head>
 	<body>
@@ -14,15 +15,35 @@
 					<img id="top-center-photo" src="../images/top1-u593.png" width="643" height="286" />
 				</div>
 			</div>
-			<div id="contact-logo" style="float:left; padding-right:0;">
+			<div id="contact-logo">
 				<img src="../images/kontakt.png" width="247" height="58" />
 			</div>
 			<div id="menu">
 				<ul>
-					<li>asd</li>
-					<li>asd</li>
-					<li>asd</li>
-					<li>asd</li>
+					<li><p>asd</p></li>
+					<li><p>asd</p></li>
+					<li><p>asd</p></li>
+					<li><p>asd</p></li>
+					<script>
+						$('li').click(function() {
+							if($(this).hasClass("hover"))
+			  					$(this).removeClass("hover");
+			  				}
+			  				$(this).addClass("selected").siblings().removeClass("selected");
+						});
+						$('li').mouseover(function(){
+							if($(this).hasClass("selected")){
+
+							}else{
+								$(this).addClass("hover");
+							}
+						});
+						$('li').mouseout(function(){
+							if($(this).hasClass("hover")){
+								$(this).removeClass("hover");
+							}
+						});
+					</script>
 				</ul>
 			</div>			
 		</div>
