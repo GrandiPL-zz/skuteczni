@@ -46,20 +46,45 @@ body
 	padding-left: 23px;
 	margin: 153px -30px;
 	width: 247px;
+	padding-right: 0px;
 }
 #menu{
 	float: left;
-	margin-left: 100px;
+	margin-left: -150px;
 	width: 336px;
+	margin-top: -75px;
 	
 }
 #menu ul{
 	list-style-type: none;
 }
 #menu li{
-	color: #E41D13;
+	line-height: 66px;
+	color: #6C6C6C;
 	visibility: inherit;
-	font-size: 14px;
+	font-size: 12px;
 	text-decoration: none;
+	letter-spacing: 1px;
+	text-align: right;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	vertical-align: middle;
+	height: 66px;
+}
+#menu li.selected{
+	opacity: 0.4;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #E41D13;
 	font-weight: bold;
 }
+#menu li.hover{
+	background-color: red;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	opacity: 0.4;
+	cursor: pointer;
+}
+#menu li p{
+	margin-right: 20px;
+};
